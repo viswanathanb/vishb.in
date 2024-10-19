@@ -27,25 +27,25 @@ sidebar_position: 1000
 - Golang / C# / Python
 - Azure (primary), AWS and GCP
 - Azure Databricks (Spark, Workflows, Unity Catalog, Delta / Iceberg)
+- Snowflake
 - Kafka, Service Bus, EventHub (Event Driven Architecture)
 - Postgres / DynamoDB / Cosmos dB / Databricks
 - Kubernetes / Docker / Service Mesh / Cilium
-- Terraform
 - Argo CD / GitHub Actions / Flux CD
 - Terraform (Infrastructure as Code)
 - Open Telemetry / Datadog / LGTM (Loki, Grafana, Tempo, Mimir, Faro) – Observability and Monitoring
-- Argo Workflows / Databricks Workflows
+- Argo Workflows / Databricks Workflows / Dagster
 - Automation and Testing 
 
 ## Experience
 
-### Data and Cloud Architect , 3Shape Copenhagen ( 2023 - Present )
+### Data and Cloud Architect , 3Shape Copenhagen ( 2023 - 2024 Sep )
 - Azure Databricks ( PySpark, C# , Unity Catalog, Terraform)
 - Cloud Services for AI Inferancing
 - Cloud Center of Excellence
 - Azure FinOps and Governance
 
-### Platform Architect , Supply Chain Platform, Maersk Copenhagen ( 2018 - 2022 )
+### Platform Architect , Supply Chain Platform, Maersk Copenhagen ( 2018 Jun - 2022 Dec)
 - Modernization of Legacy Platform
 - Migration from Mainframe to Azure
 - Event Driven Architecture

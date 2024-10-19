@@ -1,2 +1,4 @@
 name: dummy
 type: duckdb
+options:
+  filename: dummy.db
