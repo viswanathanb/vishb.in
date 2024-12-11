@@ -7,8 +7,11 @@ sidebar_position: 1000
 # Viswanathan Bhojan ( Vish )
 
 ## Current Areas of Interest
+- Private Cloud ( Talos / K8S / Kubevirt / Cilium / Argo CD / Flux / Helm)
 - Azure ( Architecture , Governance , FinOps )
-- Databricks
+- Databricks / Snowflake
+- SQL / Dbt / SQLMesh / SDF
+- Dagster / Argo Workflows
 - Spark
 - Delta / Apace Iceberg
 - Kafka / Flink
