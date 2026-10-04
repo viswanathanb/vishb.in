@@ -30,6 +30,23 @@ The trick that made this work wasn't a clever prompt. It was a **skill**: a fold
 
 The skill pins the stack, the folder layout, the error envelope, the pagination contract, even the comment markers where new code gets inserted. The agent copies and adapts. It does not get to invent an architecture at 2 a.m.
 
+The skills are open source: [github.com/viswanathanb/vibe-app-skill](https://github.com/viswanathanb/vibe-app-skill). In Claude Code they install as a plugin:
+
+```bash
+# add the marketplace once, then install the plugin
+claude plugin marketplace add viswanathanb/vibe-app-skill
+claude plugin install vibe-app-skill@vibe-app-skill
+
+# later: pick up new skill versions
+claude plugin update vibe-app-skill@vibe-app-skill
+
+# in a new, empty project directory
+claude
+> /vibe-app-skill:crud-app-scaffold
+```
+
+The [README](https://github.com/viswanathanb/vibe-app-skill#readme) also covers installing the skills as plain folders for other coding agents, what each `crud-*` skill owns, and how to maintain them. The app that came out of this post is at [github.com/viswanathanb/talos-manager](https://github.com/viswanathanb/talos-manager).
+
 ```bash
    me ──prompt──▶ Claude Code
                      │ reads
@@ -229,7 +246,7 @@ Honest caveats:
 
 ## Summary: The Flow
 
-1. Install a skill that encodes your conventions, golden example and scripts
+1. Install a skill that encodes your conventions, golden example and scripts ([vibe-app-skill](https://github.com/viswanathanb/vibe-app-skill), see its README)
 2. One prompt: name, module, resources, access patterns
 3. Agent writes the spec, you say yes
 4. Script generates the skeleton: auth, users, teams, sharing, quality gates
